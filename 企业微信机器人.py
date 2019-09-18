@@ -63,6 +63,6 @@ def send_message(url,content,types):
         print(p.text)
 
 if __name__ == "__main__":
-    url = 'https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=d0b25992-cb25-49dd-b2bd-f0af3c4930dd'
-    content = '小嘉喊你点加班餐啦O(∩_∩)O~；[点我去点餐](https://meican.com/preorder/landing/index)'
-    send_message(url,content,'markdown')
+    url = '企业微信机器人Webhook地址'
+    content = '你好，我是企业微信小机器人'
+    send_message(url,content,'text')
